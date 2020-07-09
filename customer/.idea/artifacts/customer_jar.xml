@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="customer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/customer_jar</output-path>
+    <properties id="ant-postprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="customer.jar">
+      <element id="module-output" name="customer" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/protobuf-java-3.6.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
